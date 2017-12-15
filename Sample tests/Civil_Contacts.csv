@@ -1,59 +1,48 @@
-Name,Field title,Address,Contact number,email id
-,,,,
-"Aggour, M. Sherif", Professor ," 0147-D Glenn L. Martin Hall, College Park, MD 20742 ", 301-405-1942 , msaggour@umd.edu 
-,,,,
-"Amde, Amde M.", Professor ," 1176 Glenn L. Martin Hall, College Park, MD 20742 ", 301-405-1946 , amde@umd.edu 
-,,,,
-"Andrade, Natasha",None, 0160 Glenn L. Martin Hall , 301-405-1171 , nandrade@umd.edu 
-,,,,
-"Austin, Mark A.", Associate Professor ,"  2261 A.V. Williams Building, College Park, MD 20742 ", 301-405-6627 , austin@isr.umd.edu 
-,,,,
-"Aydilek, Ahmet H.", Professor ," 1163 Glenn L. Martin Hall, College Park, MD 20742 ", 301-405-2692 , aydilek@umd.edu 
-,,,,
-"Ayyub, Bilal M."," Professor, Director of the Center for Technology and Systems Management "," 0305 Glenn. L. Martin Hall, College Park, MD 20742 ", 301-405-1956 , ayyub@umd.edu 
-,,,,
-"Baecher, Gregory B.", Professor ," 1172 Glenn. L. Martin Hall, College Park, MD 20742 ", 301-405-1972 , gbaecher@umd.edu 
-,,,,
-"Bensi, Michelle", Assistant Professor ," 1143 Glenn L. Martin Hall, College Park, MD 20742 ", 301-405-7768 , mbensi@umd.edu 
-,,,,
-"Brubaker, Kaye L.", Associate Professor ," 1180 Glenn L. Martin Hall, College Park, MD 20742 ", 301-405-1965 , kbru@umd.edu 
-,,,,
-"Chang, Gang-Len", Professor ," 3140 Kim Building,College Park, MD 20742 ", 301-405-1953 , gang@umd.edu 
-,,,,
-"Chang, Peter C.", Associate Professor ," 1186 Glenn. L. Martin Hall, College Park, Md 20742 ", 301-405-1957 , pchang@umd.edu 
-,,,,
-"Cirillo, Cinzia", Associate Professor ," 3250 Kim Bldg, College Park, MD 20742 ", 301-405-6864 , ccirillo@umd.edu 
-,,,,
-"Cui, Qingbin", Associate Professor ," 1157 Glenn. L. Martin Hall, College Park, MD 20742 ", 301-405-8104 , cui@umd.edu 
-,,,,
-"Davis, Allen P.", Professor and Charles A. Irish Sr. Chair in Civil Engineering ," 1151 Glenn. L. Martin Hall, College Park, MD 20742 ", 301-405-1958 , apdavis@umd.edu 
-,,,,
-"Forman, Barton"," Assistant Professor, The Deborah J. Goodings Professor in Engineering for Global Sustainability "," 1159 Glenn L. Martin Hall, College Park, MD 20742 ", 301-405-1148 , baforman@umd.edu 
-,,,,
-"Goulias, Dimitrios G.", Associate Professor ," 0147A Glenn L. Martin Hall, College Park, MD 20742 ", 301-405-2624 , dgoulias@umd.edu 
-,,,,
-"Haghani, Ali", Professor ," 1124C Glenn. L. Martin Hall, College Park, MD 20742 ", 301-405-1963 , haghani@umd.edu 
-,,,,
-"Kjellerup, Birthe"," Assistant Professor, Pedro E. Wasmer Professor in Engineering ", 1147 Glenn L. Martin Hall , 301-314-1535 , bvk@umd.edu 
-,,,,
-"Lovell, David", Professor ," 1184 Glenn L. Martin Hall, College Park, Maryland 20742 ", 301-405-7995 , lovell@umd.edu 
-,,,,
-"McCuen, Richard H."," Professor, Ben Dyer Chair in Civil Engineering "," 1170 Glenn. L. Martin Hall, College Park, MD 20742 ", 301-405-1949 , rhmccuen@umd.edu 
-,,,,
-"Phillips, Brian M.", Assistant Professor ," 1145 Glenn L. Martin Hall, College Park, MD 20742 ", 301-405-1961 , bphilli@umd.edu 
-,,,,
-"Reilly, Allison", Assistant Professor ," 1174 Glenn L. Martin Hall, College Park, MD 20742 ", 301-405-8846 , areilly2@umd.edu 
-,,,,
-"Schonfeld, Paul M.", Professor ,"  3134 Jeong H. Kim Engineering Building, College Park, MD 20742 ", 301-405-1954 , pschon@umd.edu 
-,,,,
-"Schwartz, Charles W."," Department Chair, Professor "," 1173G Glenn. L. Martin Hall, College Park, MD 20742 ", 301-405-1962 , schwartz@umd.edu 
-,,,,
-"Skibniewski, Miroslaw J.", Professor in Project Management ," 1188 Glenn L. Martin Hall, College Park, Maryland 20742 ", 301-405-9364 , mirek@umd.edu 
-,,,,
-"Torero, Jose"," Director, Center for Disaster Resilience ", 3104G J.M. Patterson Building , 301-405-3992 , jltorero@umd.edu 
-,,,,
-"Torrents, Alba", Professor , 1153 Glenn L. Martin Hall , 301-405-1979 , alba@umd.edu 
-,,,,
-"Zhang, Lei"," Herbert Rabin Distinguished Professor; Director, National Transportation Center ", 3132 Jeong H. Kim Engineering Building , 301-405-2881 , lei@umd.edu 
-,,,,
-"Zhang, Yunfeng", Professor ," 1178 Glenn. L. Martin Hall, College Park, MD 20742 ", 301-405-1955 , zyf@umd.edu 
+Name,Field title,Address,Contact number,email id
+"Azarm, Shapour"," ProfessorDirector, Design Decision Support Lab "," 2155 Glenn L. Martin Hall, Building 088 ", 301-405-5250 , azarm@umd.edu 
+"Balachandran, Balakumar"," Department ChairMinta Martin Professor Faculty Member, Applied Mathematics and Scientific Computation "," 2181 Glenn L. Martin Hall, Building 088 ", 301-405-4747 , balab@umd.edu 
+"Bar-Cohen, Avram", Distinguished University Professor ," 2106B Glenn L. Martin Hall, Building 088 ", 301-405-3173 , abc@umd.edu 
+"Baz, Amr"," Minta Martin ProfessorKeystone ProfessorDirector, Smart Materials and Structures Research Center "," 2137 Glenn L. Martin Hall, Building 088 ", 301-405-5216 , baz@umd.edu 
+"Bergbreiter, Sarah", Associate Professor ," 2170 Glenn L. Martin Hall, Building 088 ", 301-405-6506 , sarahb@umd.edu 
+"Bernard, Peter", Professor ," 3116 Glenn L. Martin Hall, Building 088 ", 301-405-5272 , bernard@umd.edu 
+"Bigio, David", Associate Professor ," 3129 Glenn L. Martin Hall, Building 088 ", 301-405-5258 , dbigio@umd.edu 
+"Bruck, Hugh"," ProfessorDirector, Graduate StudiesAssociate Chair, Academic Affairs "," 2174 Glenn L. Martin Hall, Building 088 ", 301-405-8711 , bruck@umd.edu 
+"Chopra, Nikhil", Associate Professor ," 2149 Glenn L. Martin Hall, Building 088 ", 301-405-7011 , nchopra@umd.edu 
+"Christou, Aris", Professor , 2309A Chemical and Nuclear Engineering , 301-405-5208 , christou@umd.edu 
+"Chung, Peter W. "," Associate ProfessorLeader, Mechanics and Materials Division "," 2135 Glenn L. Martin Hall, Building 088 ", 301-405-4543 , pchung15@umd.edu 
+"Cukier, Michel"," Associate Professor of Reliability EngineeringAssociate Director for Education, Maryland Cybersecurity Center (MC2)Director, Advanced Cybersecurity Experiences for Students (ACES) "," 2151 Glenn L. Martin Hall, Building 088 ", 301-314-2804 , mcukier@umd.edu 
+"Das, Siddhartha", Assistant Professor ," 3163 Glenn L. Martin Hall, Bldg. 088 ", 301-405-6633 , sidd@umd.edu 
+"Dasgupta, Abhijit", Jeong H. Kim Professor ," 2110C Glenn L. Martin Hall, Building 088 ", 301-405-5251 , dasgupta@umd.edu 
+"DeVoe, Don"," Professor & Associate Chair, ResearchAffiliate Faculty, Bioengineering & Chemical and Biomolecular EngineeringDirector, Maryland MEMS and Microfluidics Lab "," 3139 Glenn L. Martin Hall, Building 088 ", 301-405-8125 , ddev@umd.edu 
+"diMarzo, Marino", Professor ," 3104E JM Patterson, Building 083 ", 301-405-5257 , marino@umd.edu 
+"Duncan, James", Wilson Elkins Professor (2013-2015)Keystone Professor ," 3118 Glenn L. Martin Hall, Bldg 088 ", 301-405-5260 , duncan@umd.edu 
+"Fourney, William", Associate DeanKeystone Professor ," 1131 Glenn L. Martin Hall, Bldg 088 ", 301-405-1129 , four@umd.edu 
+"Fuge, Mark D.", Assistant Professor , 2172 Glenn L. Martin Hall , 301-405-2558 , fuge@umd.edu 
+"Gabriel, Steven A."," ProfessorLeader, Design and Reliability of Systems DivisionDirector, Energy Systems Management and Policy Certificate ProgramProfessor, Applied Mathematics, Statistics& Scientific Computing ProgramAffiliate Professor, Institute of Systems Research ", 0151D Glenn. L. Martin Hall , 301-405-3242 , sgabriel@umd.edu 
+"Groth, Katrina", Assistant Professor , 0151C Glenn L. Martin Hall , 301- 405-5215 , kgroth@umd.edu 
+"Gupta, Ashwani K.", Distinguished University Professor ," 2159 Glenn L. Martin Hall, Building 088 ", 301-405-5276 , akgupta@umd.edu 
+"Hahn, Jin-Oh ", Assistant Professor ," 2104C Glenn L. Martin Hall, Building 088 ", 301-405-7864 , jhahn12@umd.edu 
+"Han, Bongtae", ProfessorKeystone Professor ," 3147 Glenn L. Martin Hall, Building 088 ", 301-405-5255 , bthan@umd.edu 
+"Herrmann, Jeffrey"," ProfessorAcademic Director, QUEST Honors Program "," 0151B Glenn L. Martin Hall, Building 088 ", 301-405-5433 , jwh2@umd.edu 
+"Kiger, Kenneth"," ProfessorKeystone ProfessorDirector, Undergraduate Studies "," 2188 Glenn L. Martin Hall, Building 088 ", 301-405-5245 , kkiger@umd.edu 
+"Kim, Jungho"," ProfessorKeystone ProfessorLeader, Thermal, Fluids & Energy Systems Division "," 3137 Glenn L. Martin Hall, Building 088 ", 301-405-5437 , kimjh@umd.edu 
+"Krieger, Axel", Assistant Professor , 2151 Glenn Martin Hall , 301-405-6640 , axel@umd.edu 
+"Larsson, Johan"," Assistant ProfessorDepartment of Mechanical EngineeringMember, Applied Mathematics & Statistics, and Scientific Computation ", 3149 Glenn L. Martin Hall , 301-405-5273 , jola@umd.edu 
+"Li, Teng", Associate ProfessorKeystone Professor ," 2141 Glenn L. Martin Hall, Building 088 ", 301-405-0364 , lit@umd.edu 
+"McCluskey, F. Patrick"," ProfessorLeader, Electronics and Product Systems Division "," 2125 Glenn L. Martin Hall, Building 088 ", 301-405-0279 , mcclupa@umd.edu 
+"Modarres, Mohammad"," Nicole Y. Kim Eminent ProfessorDirector, Nuclear Engineering ProgramDirector, Center for Risk and Reliability "," 0151C Glenn L. Martin Hall, Building 088 ", 301-405-5226 , modarres@umd.edu 
+"Mote Jr., C.D. (Dan)"," Regents Professor & Glenn L. Martin Institute Professor of EngineeringFormer President of University of Maryland, College Park ",None, 202-334-3201 , dmote@umd.edu 
+"Ohadi, Michael", Professor , 4164C Glenn L. Martin Hall , 301-405-5263 , ohadi@umd.edu 
+"Pecht, Michael"," George E. Dieter ProfessorFaculty Member, Applied Mathematics and Scientific ComputationDirector, Center for Advanced Life Cycle Engineering "," Room S1103, Engineering Lab, (Building 089) ", 301-405-5323 , pecht@umd.edu 
+"Pertmer, Gary A. ", Associate ProfessorKeystone Professor ," 2129 Martin Hall, Building 088 ", (301) 405-5284 , pertmer@umd.edu 
+"Radermacher, Reinhard"," Minta Martin ProfessorDirector, Center for Environmental Energy Engineering "," 4164A Glenn L. Martin Hall, Building 088 ", 301-405-5286 , raderm@umd.edu 
+"Riaz, Amir", Associate Professor ," 3127 Glenn L. Martin Hall, Building 088 ", 301-405-0707 , ariaz@umd.edu 
+"Sandborn, Peter"," ProfessorKeystone ProfessorDirector, MTech "," 2106A Glenn L. Martin Hall, Building 088 ", 301-405-3167 , sandborn@umd.edu 
+"Schmidt, Linda", Professor ," 2104B Glenn L. Martin Hall, Building 088 ", 301-405-0417 , lschmidt@umd.edu 
+"Smela, Elisabeth", ProfessorAssociate Dean for Faculty Affairs and Graduate Programs ," 2112 Glenn L. Martin Hall, Building 088 ", 301-405-5265 , smela@umd.edu 
+"Sochol, Ryan D.", Assistant Professor ," 2147 Glenn L. Martin Hall, Building 088 ", 301-405-6928 , rsochol@umd.edu 
+"Srebric, Jelena", Professor , 3143 Glenn L. Martin Hall , 301-405-6247 , jsrebric@umd.edu 
+"Vaughn-Cooke, Monifa", Assistant Professor , 0151E Glenn L. Martin Bldg , 301-405-9857 , mvc@umd.edu 
+"Yang, Bao", Professor ," 4164D Glenn L. Martin Hall, Building 088 ", 301-405-6007 , baoyang@umd.edu 
+"Yu, Miao"," ProfessorDirector, Maryland Robotics Center "," 2108 Glenn L. Martin Hall, Building 088 ", 301-405-3591 , mmyu@umd.edu 
+"Zhang, Guangming", Associate ProfessorKeystone: The Clark School Academy of Distinguished Professors , 2104A Glenn L. Martin Hall , 301-405-6617 , zhang@umd.edu 
