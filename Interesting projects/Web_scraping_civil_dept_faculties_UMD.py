@@ -1,6 +1,6 @@
 import requests, sys, webbrowser, bs4,csv
 
-res = requests.get('http://www.ence.umd.edu/faculty')
+res = requests.get('http://www.enme.umd.edu/faculty')
 res.raise_for_status()
 
 soup = bs4.BeautifulSoup(res.text,"lxml")
