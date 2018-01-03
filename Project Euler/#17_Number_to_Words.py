@@ -1,3 +1,5 @@
+import re
+spaces = re.compile(r'\s\s')
 t = int(input().strip())
 Dict0 = {1:'One',
          2:'Two',
@@ -35,7 +37,6 @@ def hundreds(n):
         return None
     if n[0]=='0':
         n = n[1:]
-        print(n)
     if int(n)==0:
         return None
     if int(n)<10:
@@ -76,68 +77,68 @@ for a0 in range(t):
         continue    
     
     if int(n) == 1000000000000:
-        print('Thousand Billion')
+        print('One Trillion')
         continue
     
     if int(n)<1000:        
-        print(hundreds(n))
+        print(spaces.sub(" ",hundreds(n)))
         continue
     
     if int(n)<1000000:
         if hundreds(n[-3:])!= None:
-            print(hundreds(n[0:length-3])+' Thousand '+hundreds(n[-3:]))
+            print(spaces.sub(" ",hundreds(n[0:length-3])+' Thousand '+hundreds(n[-3:])))
             continue
 
         else:
-            print(hundreds(n[0:length-3])+' Thousand ')
+            print(spaces.sub(" ",hundreds(n[0:length-3])+' Thousand'))
             continue
     
     if int(n)<1000000000:
         if hundreds(n[-3:])== None and hundreds(n[length-6:length-3]) == None:
-            print(hundreds(n[0:length-6])+' Million ')
+            print(spaces.sub(" ",hundreds(n[0:length-6])+' Million'))
             continue
 
         elif hundreds(n[-3:])==None and hundreds(n[length-6:length-3]) != None:
-            print(hundreds(n[0:length-6])+' Million '+hundreds(n[length-6:length-3])+' Thousand')
+            print(spaces.sub(" ",hundreds(n[0:length-6])+' Million '+hundreds(n[length-6:length-3])+' Thousand'))
             continue
 
         elif hundreds(n[-3:])!=None and hundreds(n[length-6:length-3]) == None:
-            print(hundreds(n[0:length-6])+' Million '+hundreds(n[-3:]))
+            print(spaces.sub(" ",hundreds(n[0:length-6])+' Million '+hundreds(n[-3:])))
             continue
 
         else:
-            print(hundreds(n[0:length-6])+' Million '+hundreds(n[length-6:length-3])+' Thousand '+hundreds(n[-3:]))
+            print(spaces.sub(" ",hundreds(n[0:length-6])+' Million '+hundreds(n[length-6:length-3])+' Thousand '+hundreds(n[-3:])))
             continue
 
     else:
         if hundreds(n[-3:])== None and hundreds(n[length-6:length-3]) == None and hundreds(n[length-9:length-6]) == None:
-            print(hundreds(n[0:length-9])+' Billion ')
+            print(spaces.sub(" ",hundreds(n[0:length-9])+' Billion'))
             continue
 
         elif hundreds(n[-3:])== None and hundreds(n[length-6:length-3]) == None and hundreds(n[length-9:length-6]) != None:
-            print(hundreds(n[0:length-9])+' Billion '+hundreds(n[length-9:length-6])+' Million ')
+            print(spaces.sub(" ",hundreds(n[0:length-9])+' Billion '+hundreds(n[length-9:length-6])+' Million'))
             continue
 
         elif hundreds(n[-3:])== None and hundreds(n[length-6:length-3]) != None and hundreds(n[length-9:length-6]) == None:
-            print(hundreds(n[0:length-9])+' Billion '+hundreds(n[length-6:length-3])+' Thousand ')
+            print(spaces.sub(" ",hundreds(n[0:length-9])+' Billion '+hundreds(n[length-6:length-3])+' Thousand'))
             continue
 
         elif hundreds(n[-3:])== None and hundreds(n[length-6:length-3]) != None and hundreds(n[length-9:length-6]) != None:
-            print(hundreds(n[0:length-9])+' Billion '+hundreds(n[length-9:length-6])+' Million '+hundreds(n[length-6:length-3])+' Thousand ')
+            print(spaces.sub(" ",hundreds(n[0:length-9])+' Billion '+hundreds(n[length-9:length-6])+' Million '+hundreds(n[length-6:length-3])+' Thousand'))
             continue
 
         elif hundreds(n[-3:])!= None and hundreds(n[length-6:length-3]) == None and hundreds(n[length-9:length-6]) == None:
-            print(hundreds(n[0:length-9])+' Billion '+hundreds(n[-3:]))
+            print(spaces.sub(" ",hundreds(n[0:length-9])+' Billion '+hundreds(n[-3:])))
             continue
 
         elif hundreds(n[-3:])!= None and hundreds(n[length-6:length-3]) == None and hundreds(n[length-9:length-6]) != None:
-            print(hundreds(n[0:length-9])+' Billion '+hundreds(n[length-9:length-6])+' Thousand '+hundreds(n[-3:]))
+            print(spaces.sub(" ",hundreds(n[0:length-9])+' Billion '+hundreds(n[length-9:length-6])+' Thousand '+hundreds(n[-3:])))
             continue
 
         elif hundreds(n[-3:])!= None and hundreds(n[length-6:length-3]) != None and hundreds(n[length-9:length-6]) == None:
-            print(hundreds(n[0:length-9])+' Billion '+hundreds(n[length-6:length-3])+' Thousand '+hundreds(n[-3:]))
+            print(spaces.sub(" ",hundreds(n[0:length-9])+' Billion '+hundreds(n[length-6:length-3])+' Thousand '+hundreds(n[-3:])))
             continue
 
         else:
-            print(hundreds(n[0:length-9])+' Billion '+hundreds(n[length-9:length-6])+' Million '+hundreds(n[length-6:length-3])+' Thousand '+hundreds(n[-3:]))
+            print(spaces.sub(" ",hundreds(n[0:length-9])+' Billion '+hundreds(n[length-9:length-6])+' Million '+hundreds(n[length-6:length-3])+' Thousand '+hundreds(n[-3:])))
             continue
