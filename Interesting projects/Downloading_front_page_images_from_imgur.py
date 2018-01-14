@@ -1,4 +1,4 @@
-import bs4, requests,urllib.request,os,re,os.path
+import bs4,urllib,os,re,os.path,requests
 
 def downloadimage(url,filename):
 	urllib.request.urlretrieve(url,filename)
@@ -14,7 +14,7 @@ os.chdir(finalfolder)
 res = requests.get('https://imgur.com/')
 res.raise_for_status()
 i = 1
-soup = bs4.BeautifulSoup(res.text,"lxml")
+soup = bs4.BeautifulSoup(res.text)
 Firstpage = soup.find_all("div",{"class":"posts br5 first-child"})[0]
 for item in Firstpage.find_all("div",{"class":"post"}):
 	url = 'https:'+item.find('img')['src']
