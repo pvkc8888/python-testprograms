@@ -10,6 +10,9 @@ def timeConversion(s):
             print(s[:8])
     else:
         temp = int(s[0:2])
-        print(str(12+temp)+s[2:8])
+        if temp==12:
+            print(s[:8])
+        else:
+            print(str(12+temp)+s[2:8])
 s = input().strip()
 result = timeConversion(s)
