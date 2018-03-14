@@ -18,12 +18,12 @@ with open('Civil_Contacts.csv', 'w') as new_file:
 
 		except:
 			name = "No name given"
-		try:	
+		try:
 			print(item.find_all("div",{"class":"views-field views-field-field-title"})[0].text)
 			field = item.find_all("div",{"class":"views-field views-field-field-title"})[0].text
 		except:
 			field = "None"
-		try:	
+		try:
 			print(item.find_all("div",{"class":"views-field views-field-field-address"})[0].text)
 			address = item.find_all("div",{"class":"views-field views-field-field-address"})[0].text
 		except:
