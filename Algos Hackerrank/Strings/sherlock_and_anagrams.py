@@ -2,6 +2,7 @@
 
 # simple function to calculate factorial of n
 
+
 def factorial(n):
     if n == 1:
         return 1
@@ -10,12 +11,11 @@ def factorial(n):
 
 
 def sherlockAndAnagrams(s):
-    count = 1
     anagrams = 0
     Dict = {}
     for i in range(len(s)):
         for item in range(i, len(s)):
-    # storing all the unique strings in dict and noting down how many of them exist
+            # storing all the unique strings in dict and noting down how many of them exist
             try:
                 string = s[i:item + 1]
                 string = ''.join(sorted(string))
