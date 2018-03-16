@@ -18,7 +18,7 @@ def makingAnagrams(s1, s2):
             Dict2[item] = 1
         else:
             Dict2[item] += 1
-    print(Dict1, Dict2)
+    #print(Dict1, Dict2)
     for k, v in Dict1.items():
         if k in Dict2:
             count += min(v, Dict2[k])
