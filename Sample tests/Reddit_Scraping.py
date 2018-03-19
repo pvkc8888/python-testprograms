@@ -1,9 +1,12 @@
 # -*- coding: utf-8 -*-
 import praw
+from reddit_credentials import client_id, client_secret, password, user_agent, username
 
-reddit = praw.Reddit(client_id='jzqAK8qLxvZcLQ',
-                     client_secret='wd5Cv9Sko6tjdSWlqPOnztGkeB0', password='none',
-                     user_agent='TestingAPi', username='none')
+reddit = praw.Reddit(client_secret=client_secret,
+                     client_id=client_id,
+                     password=password,
+                     username=username,
+                     user_agent=user_agent)
 
 subreddit = reddit.subreddit('books')
 BigDict = {
