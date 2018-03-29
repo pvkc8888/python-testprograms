@@ -1,3 +1,4 @@
+
 def sieve():
     primelist = [1] * 1000000007
     for i in range(2, 1000000007):
