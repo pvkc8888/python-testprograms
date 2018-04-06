@@ -42,4 +42,3 @@ with open('Civil_Contacts.csv', 'w') as new_file:
             email = "None"
         writer.writerow({"Name": name, "Field title": field, "Address": address, "Contact number": cno, "email id": email})
         print()
-# writer.close()
