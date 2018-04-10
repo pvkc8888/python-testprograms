@@ -6,7 +6,7 @@ sub_list = []
 f = open("subreddits.txt", "a", encoding="utf8")
 while True:
     driver.get('https://www.reddit.com/r/randnsfw')
-    driver.minimize_window()
+    # driver.minimize_window()
     # print(driver.page_source.encode("utf-8"))
     try:
         elm = driver.find_elements_by_name('over18')
@@ -14,7 +14,7 @@ while True:
         driver.implicitly_wait(5)
         elm[1].click()
     except Exception as e:
-        print(e)
+        pass
     url = driver.current_url
     print(url)
     subreddit = url[25:-1]
@@ -23,7 +23,7 @@ while True:
         f.write(subreddit)
         f.write('\n')
     count += 1
-    if count > 100:
+    if count > 500:
         break
 f.close()
 
