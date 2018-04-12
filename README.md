@@ -6,3 +6,5 @@ Includes:
 3) Reddit daily programmer solutions.
 4) Some test codes I wrote while learning new concept.
 5) Hackerrank Algos.
+
+I am gonna write a more detailed explanation of everything in here.
